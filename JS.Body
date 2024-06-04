@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Add JavaScript Code inside Body Section
+    </title>
+</head>
+
+<body>
+    <h2>
+        Add JavaScript Code
+        inside Body Section
+    </h2>
+
+    <h3 id="demo" style="color:green;">
+        SIMATS Engineering at SSE BLOCK
+    </h3>
+
+    <button type="button" onclick="myFun()">
+        Click Here
+    </button>
+
+    <script>
+        function myFun() {
+            document.getElementById("demo")
+                .innerHTML = "SIMATS ENGINEERING AT CIRCULAR BLOCK";
+        }
+    </script>
+</body>
+
+</html>
+
+</body>
+
+</html>
